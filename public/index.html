@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Smartphone Remote Control for Presentations | Tutorialzine Demo</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link type="text/css" rel="stylesheet" href="assets/css/styles.css" />
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="assets/revealjs/css/reveal.css">
+	<link rel="stylesheet" href="assets/revealjs/css/theme/black.css" id="theme">
+
+</head>
+
+<body>
+
+	<form class="login">
+		<span>What's your secret key?</span>
+		<input type="text" placeholder="Please enter your secret key!"/>
+		<input type="submit" value="➡" />
+	</form>
+
+	<div class="reveal blurred">
+		<div class="slides">
+			<section data-background="assets/img/1.jpg">
+				<p>Experiment by <a class="tz-link" href="http://tutorialzine.com/2015/02/smartphone-remote-control-for-presentations/">tutorial<span>zine</span></a></p>
+				<p><small>Open this presentation on your computer and smartphone. <br>Transition by swiping or pressing keyboard keys.</small></p>
+			</section>
+			<section>
+				<section data-background="assets/img/2.jpg">Vertical Slide 1</section>
+				<section data-background="assets/img/3.jpg">Vertical Slide 2</section>
+				<section data-background="assets/img/4.jpg">Vertical Slide 3</section>
+			</section>
+			<section data-background="assets/img/5.jpg">Single Horizontal Slide 2</section>
+			<section>
+				<section data-background="assets/img/6.jpg">Vertical Slide 4</section>
+				<section data-background="assets/img/7.jpg">Vertical Slide 5</section>
+			</section>
+		</div>
+	</div>
+
+
+	<!-- Including the JS libraries that we use -->
+	<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+	<!-- Reveal.js is for presentations -->
+	<script src="assets/revealjs/lib/js/head.min.js"></script>
+	<script src="assets/revealjs/js/reveal.js"></script>
+
+	<!-- Socket.io library -->
+	<script src="/socket.io/socket.io.js"></script>
+
+	<!-- Main JavaScript file -->
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>
